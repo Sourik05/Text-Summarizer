@@ -5,6 +5,9 @@ from textSummarizer.pipeline.stage_04_model_trainer import ModelTrainerTrainingP
 from textSummarizer.pipeline.stage_05_model_evaluation import ModelEvaluationTrainingPipeline
 from textSummarizer.logging import logger
 
+import sys
+sys.path.append(r"D:\Text-Summarizer")
+
 
 STAGE_NAME = "Data Ingestion stage"
 try:

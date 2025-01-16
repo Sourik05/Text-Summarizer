@@ -5,7 +5,6 @@ from datasets import load_dataset, load_from_disk
 from textSummarizer.entity import DataTransformationConfig
 
 
-
 class DataTransformation:
     def __init__(self, config: DataTransformationConfig):
         self.config = config

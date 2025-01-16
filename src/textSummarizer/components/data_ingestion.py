@@ -14,6 +14,7 @@ class DataIngestion:
 
     
     def download_file(self):
+        print(f"Looking for zip file at: {self.config.local_data_file}")
         if not os.path.exists(self.config.local_data_file):
             filename, headers = request.urlretrieve(
                 url = self.config.source_URL,
